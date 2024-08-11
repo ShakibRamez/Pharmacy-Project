@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 47, 255, 0.795);
+}
+
+.navbar img{
+    width: 8%;
+    height: 8%;
+    border-radius: 50%;
+}
+
+.navbar .nav a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+/* main */
+
+.container{
+    display: block;
+
+}
+
+h1{
+    text-align: center;
+    padding: 20px;
+}
+
+p{
+    text-align: center;
+
+}
+.our-service{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+}
+
+.our-service .card{
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px gray;
+    padding: 10px;
+    width: 20%;
+    
+}
+
+.our-service .card img{
+    width: 100%;
+}
+
+.our-service .card h4,p{
+    padding: 5px;
+    margin: 5px;
+}
+
+
+.our-service .card button{
+    padding: 10px;
+    background-color: rgba(0, 47, 255, 0.795);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+
+.product{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+}
+
+.product .card{
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px gray;
+    width: 30%;
+}
+
+section{
+    margin-top: 90px;
+}
+
+/* footer */
+
+footer{
+    margin-top: 90px;
+    display: flex;
+    padding: 30px;
+    background-color: rgba(0, 47, 255, 0.795);
+}
+
+.footer{
+    display: flex;
+    gap: 30px;
+}
+
+.footer ul,ol li{
+    text-decoration: none;
+    color: white;
+    list-style-type: none;
+}
+
