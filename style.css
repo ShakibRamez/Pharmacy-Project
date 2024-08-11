@@ -20,11 +20,14 @@ body{
     border-radius: 50%;
 }
 
+.navbar .nav{
+    width: 40%;
+}
 .navbar .nav a{
     text-decoration: none;
     color: white;
     padding: 5px;
-    margin: 5px;
+    margin-right: 5px;
 }
 
 /* main */
